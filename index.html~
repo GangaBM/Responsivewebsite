@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initital-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+	<title>portfolio</title>
+	<link rel="stylesheet" type="text/css" href="1/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="1/css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<header class="row header">
+			<div class="col-xs-3 col-sm-2 col-md-2 logo"> <img class="img-responsive logo" src="images/logo.png" alt="logo">
+			</div>
+			<div class="col-xs-9 col-sm-10 col-md-10">
+				<h1 class="text-uppercase text-right heading">Ganga Bhavani </h1>
+				<h4 class="text-uppercase text-right">Front-end Ninja</h4>
+			</div>
+		</header>
+		<hr>
+		<section class="row">
+			<article class="col-md-12 text-left">
+				<a href="#"><img class="img-responsive col-md-6 clearfix" src="images/boxification.jpg" alt="picture demo of boxifying
+						design">
+				</a>
+				<p>I am Ganga Bhavani or simply Ganga. After struggling through a series of failures, finally my website is done.
+					But I just like the process of learning how to do it.
+				</p>
+				<p>After getting the mock design I boxified i.e traced out all the various boxes - container and contained boxes.After
+					that I have assigned a grid class to each box based on the space it seems to have been occupying on the mock
+					design.I have used place holder images from placehold.it website and made them responsive with the help of
+					image-responsive class. I used Lato on Google webfonts as instructed in the lesson.
+				</p>
+				<p>I started testing the website in chrome web developer tools. There were some issues with the heading and the
+					images with the former running into two lines crossing the horizontal rule on phones(Extra-small devices as
+					defined by Bootstrap) and the latter looking bad on small devices(768-991) with them just stacking one upon
+					eachother and leaving a lot of free space beside them. I resolved the first by styling the h1 and h4 tags
+					according to the screen size using media queries.I also included grid classes for small devices to resolve
+					the issue with images. Later h1 ran into two lines on extra-small devices. I resolved this by hiding the logo
+					image.
+				</p>
+				<p>The most time taking and the stupidest mistake is assigning a grid class 6 on medium devices outside the associated
+					aticle. While image has a fixed height the text ran into a larger column resulting in two uneven columns.
+					I resolved it finally by including image in the article.
+				</p>
+			</article>
+		</section>
+		<br/>
+		<section>
+			<div class="col-md-12">
+				<h3 class="text-left"> FEATURED WORK</h3>
+			</div>
+			<div class="row text-center">
+				<article class="col-sm-6 col-md-4">
+					<img class="img-responsive" src="http://placehold.it/350x250" alt="picture of first project">
+					<h4 class="text-uppercase">INTERACTIVE RESUME</h4>
+					<p class="link"><a href="#">http://my-projects.com/interactiveresume</a>
+					</p>
+				</article>
+				<article class="col-sm-6 col-md-4">
+					<img class="img-responsive" src="http://placehold.it/350x250" alt="picture of the second project">
+					<h4>ARCADE GAME</h4>
+					<P class="link"><a href="#">http://my-projects.com/arcadegame</a>
+					</P>
+				</article>
+				<article class="col-sm-6 col-md-4">
+					<img class="img-responsive" src="http://placehold.it/350x250" alt="picture of the third project">
+					<h4>NEIGHBORHOOD MAP</h4>
+					<p class="link"><a href="#">http://my-projects.com/neighborhoodmap</a>
+					</p>
+				</article>
+			</div>
+		</section>
+		<br>
+		<footer class="col-md-12 text-center">
+			<p>Contact information: <a href="mailto:m.gangabhavani@gmail.com.com">m.gangabhavani@gmail.com</a>.</p>
+		</footer>
+	</div>
+</body>
+
+</html>
