@@ -10,22 +10,22 @@ body {
 }
 .header {
     height: 150px;
-    background: -moz-linear-gradient(left, rgba(200,0,0,1), rgba(255,0,0, 0));
+    background: -moz-linear-gradient(top, rgba(224, 209, 192, 1) 0%, rgba(241, 232, 225, 0) 100%);
     /* FF3.6+ */
 
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(rgba(200,0,0, 1)), color-stop(rgba(255,0,0, 0)));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(224, 209, 192, 1)), color-stop(100%, rgba(241, 232, 225, 0)));
     /* Chrome,Safari4+ */
 
-    background: -webkit-linear-gradient(left, rgba(200,0,0,1), rgba(255,0,0, 0));
+    background: -webkit-linear-gradient(top, rgba(224, 209, 192, 1) 0%, rgba(241, 232, 225, 0) 100%);
     /* Chrome10+,Safari5.1+ */
 
-    background: -o-linear-gradient(left, rgba(200,0,0,1), rgba(255,0,0, 0));
+    background: -o-linear-gradient(top, rgba(224, 209, 192, 1) 0%, rgba(241, 232, 225, 0) 100%);
     /* Opera 11.10+ */
 
-    background: -ms-linear-gradient(left, rgba(200,0,0,1), rgba(255,0,0, 0));
+    background: -ms-linear-gradient(top, rgba(224, 209, 192, 1) 0%, rgba(241, 232, 225, 0) 100%);
     /* IE10+ */
 
-    background: linear-gradient(left, rgba(200,0,0,1), rgba(255,0,0,0));
+    background: linear-gradient(to bottom, rgba(224, 209, 192, 1) 0%, rgba(241, 232, 225, 0) 100%);
     /* W3C */
 }
 .logo {
